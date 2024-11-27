@@ -14,7 +14,7 @@ init_db()  # Run database initialization function to set up the tables
 # Root endpoint to welcome users to the API
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the 3 Little Pigs Fairytale API"}
+    return {"message": "Welcome to the Three Little Pigs Fairytale API"}
 
 # House routes
 
